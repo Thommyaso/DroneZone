@@ -1,6 +1,13 @@
 import '../styles/style.scss';
-import abc from './abc';
+import setHamburger from './hamburger';
+import bigDrone from '../images/big-drone.png';
 
-console.log('works fine!!');
+const backgroundImg = document.querySelector('.info');
 
-console.log(abc);
+backgroundImg.backgraoundImage = bigDrone;
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    setHamburger();
+
+});
