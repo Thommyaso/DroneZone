@@ -81,6 +81,10 @@
 
     &__mobileDrone{
         visibility: hidden;
+        top: 0;
+        z-index: -1;
+        position: absolute;
+        width: 0;
     }
 }
 
@@ -157,11 +161,7 @@
 
         &__mobileDrone {
             visibility: visible;
-            top: 0;
-            z-index: -1;
-            position: absolute;
             width: 100%;
-            //width: 100%;
         }
     }
 }

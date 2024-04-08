@@ -1,4 +1,4 @@
-# Webpack-boilerplate
+## This website is based on a template found online: https://symu.co/freebies/templates-4/drone-zone-website-template/
 
 ## 1: 
 In terminal, make sure you're in project's driectory
